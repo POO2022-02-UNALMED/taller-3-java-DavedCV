@@ -80,7 +80,7 @@ public class TV {
     }
 
     public void canalUp(){
-        if (estado && canal < 102){
+        if (estado && canal < 120){
             canal++;
         }
     }

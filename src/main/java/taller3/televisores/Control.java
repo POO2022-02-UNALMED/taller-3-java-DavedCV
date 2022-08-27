@@ -3,11 +3,11 @@ package taller3.televisores;
 public class Control {
     private TV tv;
 
-    public void turnOn(boolean estado){
+    public void turnOn(){
         tv.turnOn();
     }
 
-    public turnOff(boolean estado){
+    public void turnOff(){
         tv.turnOff();
     }
 
